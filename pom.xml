@@ -8,7 +8,7 @@
   <name>TestProject</name>
   <url>http://maven.apache.org</url>
   
- <pluginManagement>
+ 
     <plugins>
        <plugin>
             <groupId>org.codehaus.mojo</groupId>
@@ -16,7 +16,7 @@
             <version>2.2</version>
         </plugin>
     </plugins>
-</pluginManagement>
+
 
   <dependencies>
     <dependency>
