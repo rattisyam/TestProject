@@ -8,15 +8,7 @@
   <name>TestProject</name>
   
   
- <pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.3.0.603</version>
-      </plugin>
-    </plugins>
-  </pluginManagement>
+ 
 
   <dependencies>
     <dependency>
@@ -27,7 +19,11 @@
     </dependency>
   </dependencies>
   
-
+<plugin>
+   <groupId>org.codehaus.mojo</groupId>
+   <artifactId>sonar-maven-plugin</artifactId>
+   <version>2.3</version>
+</plugin>
 
 
 </project>
