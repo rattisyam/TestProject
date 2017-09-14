@@ -8,6 +8,16 @@
   <name>TestProject</name>
   <url>http://maven.apache.org</url>
   
+ <pluginManagement>
+    <plugins>
+       <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>2.2</version>
+        </plugin>
+    </plugins>
+</pluginManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -17,16 +27,7 @@
     </dependency>
   </dependencies>
   
-  <pluginManagement>
-    <plugins>
-       
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>2.2</version>
-        </plugin>
-    </plugins>
-</pluginManagement>
+
 
 
 </project>
