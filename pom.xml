@@ -4,13 +4,12 @@
   <groupId>com.AngularTest</groupId>
   <artifactId>TestProject</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>TestProject</name>
   
-  
- 
 
-  <dependencies>
+
+ <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -18,7 +17,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
 
 
 </project>
