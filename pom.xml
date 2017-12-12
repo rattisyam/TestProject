@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.AngularTest</groupId>
   <artifactId>TestProject</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>1.0</version>
   <name>TestProject</name>
   
@@ -18,7 +18,7 @@
     </dependency>
   </dependencies>
   
-  <build>
+  <!--<build>
     
     <plugins>
       <plugin>
@@ -36,6 +36,6 @@
     </plugins>
 
   </build>
-
+ -->
 
 </project>
